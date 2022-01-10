@@ -7,7 +7,7 @@
     </appender>
     <!-- Configuramos el archivo que se almacenara nuestro log -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>logs/karate.log</file>
+        <file>target/karate.log</file>
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
