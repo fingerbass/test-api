@@ -12,7 +12,7 @@ El proyecto se ha desarrollado usando Maven como gestor de dependencias.
 2. Abrir el archivo pom.xml y descargar las dependencias. (CTRL + MAYUSC + O)
 3. Abrir la clase _src/test/java/swagger/RunnerPetstore.java_
 4. Presione las teclas CTRL+Mayusc+F10 para ejecutar la clase _src/test/java/swagger/RunnerPetstore.java_
-5. Luego de finalizar la ejecución, se crearán los reportes en la ruta _\wa-linio\target_:
+5. Luego de finalizar la ejecución, se crearán los reportes en la ruta _\test-api\target_:
     1. target/cucumber-html-reports
     3. target/surefire-reports
 
