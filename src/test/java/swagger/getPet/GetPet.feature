@@ -5,7 +5,7 @@ Feature: Obtener información de una mascota por ID
     * url baseUrl
     * header Accept = 'application/json'
 
-  Scenario: Verificar los datos de 1 mascota con código 200
+  Scenario: Verificar código de respuesta 200 al consultar una mascota
     * def SchemaUtils = Java.type('com.intuit.karate.swagger.util.SchemaUtils')
     * string schema = read('classpath:swagger/getPet/getPet-schema.json')
     * def CreatePetResponse = call read('classpath:common/CreatePetCommon.feature')
